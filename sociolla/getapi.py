@@ -4,7 +4,7 @@ import re
 import numpy as np
 from bs4 import BeautifulSoup
 
-class sociolla():
+class scrapsociolla():
 
     def __init__(self, url):
         """

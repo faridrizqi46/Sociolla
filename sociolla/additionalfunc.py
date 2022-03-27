@@ -7,7 +7,8 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from sklearn.feature_extraction.text import TfidfVectorizer
 from wordcloud import WordCloud
-from supportvar import *
+from sociolla.supportvar import *
+
 
 def clean_text(df, column):
     """
